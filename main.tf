@@ -97,7 +97,7 @@ resource "aws_iam_policy" "EventBridgePolicy" {
       "Effect" : "Allow",
       "Action" : [
         "states:StartExecution"
-      ],
+      ],J
       "Resource" : "${aws_sfn_state_machine.ec2_state_watcher.arn}"
     }
   ]
@@ -128,4 +128,6 @@ resource "aws_cloudwatch_event_target" "Step_function" {
   role_arn = aws_iam_role.EventBridgeRole.arn
   input_path = "$.detail"
 }
+
+
 
