@@ -22,10 +22,13 @@ terraform apply --auto-approve, it will create the resources as shown in image.
 ![Screenshot (82)](https://user-images.githubusercontent.com/120295902/234189640-3a32cbc7-de6b-4649-a83d-688a3d699769.png)
 
 ## Validation steps
+
 The instance which is showing here in a stopped state.
+
 <img width="842" alt="instance_stopped state" src="https://user-images.githubusercontent.com/120295902/234184046-3fa98c3e-3336-4bf1-ab28-d1139b1ff95c.png">
 
 After starting instance go to state machine executions, check the status, it has to running status.
+
 ![Screenshot (48)](https://user-images.githubusercontent.com/120295902/234185255-eae6f782-1337-40ec-b881-424b8530e257.png)
 
 and again i stopped the instance, and the status is as shown in below image.
