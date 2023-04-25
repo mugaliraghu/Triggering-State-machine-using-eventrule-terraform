@@ -17,8 +17,8 @@ terraform plan
 ```
 after perform below command to deploy the application in aws and '--auto-approve' applying changes without having to interactively type 'yes' to the plan.
 ```t
-terraform apply --auto-approve, it will create the resources as shown in image.
-
+terraform apply --auto-approve
+```
 ![Screenshot (82)](https://user-images.githubusercontent.com/120295902/234189640-3a32cbc7-de6b-4649-a83d-688a3d699769.png)
 
 ## Validation steps
@@ -36,6 +36,7 @@ and again i stopped the instance, and the status is as shown in below image.
 ![Screenshot (81)](https://user-images.githubusercontent.com/120295902/234187374-b88ddd5f-5702-45a2-b010-e79755ac7f91.png)
 
 To destroy the application
+
 ```t
 terraform destroy --auto-approve
 ```
